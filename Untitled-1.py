@@ -3,9 +3,9 @@ import pandas as pd
 
 
 
-inventory_df = pd.read_excel("/Users/kimiash/Desktop/control_bundle/inventory.xlsx")
-bundle_df = pd.read_excel("/Users/kimiash/Desktop/control_bundle/bundle_items.xlsx")
-bundle_warehouses_df = pd.read_excel("/Users/kimiash/Desktop/control_bundle/bundle_warehouses.xlsx")
+inventory_df = pd.read_excel("")
+bundle_df = pd.read_excel("")
+bundle_warehouses_df = pd.read_excel("")
 
 
 # Extract list of warehouses
@@ -64,4 +64,4 @@ for warehouse in warehouses:
 result_df = pd.DataFrame(all_results)
 result_df.to_excel("fair_bundle_distribution.xlsx", index=False)
 
-print("🎉 فایل fair_bundle_distribution.xlsx ساخته شد! تقسیم منصفانه انجام شد ✨")
+print("🎉 فایل fair_bundle_distribution.xlsx ساخته شد!  انجام شد ✨")
